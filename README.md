@@ -17,3 +17,8 @@ Alternatively, hobo_bootstrap_ui and hobo_jquery_ui may both be used in the same
 If you use hobo_bootstrap_ui without hobo_jquery_ui, you can also remove jQuery-UI from your `app/assets/javascripts/application.js` as well as associated stylesheets.  If you do this you will lose the ability to position the AJAX spinner and to use hide and show effects during part AJAX.
 
   [1]: https://github.com/Hobo/hobo_bootstrap_ui/raw/master/screenshots/select_one_or_new.png
+
+# Update to Bootstrap 3
+
+With the update to Twitter Bootstrap 3 a new dependency has been introduced.
+Bootstrap has dropped providing typeahead support. The project Bootstrap-3-Typeahead at https://github.com/bassjobsen/Bootstrap-3-Typeahead ported the old typeahead functionality und we use this script for our typeaheads.
